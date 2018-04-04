@@ -91,7 +91,7 @@ namespace Monad
                 var lhsValue = lhs();
                 var rhsValue = rhs();
 
-                bool IsAppendable = typeof(IAppendable<T>).GetTypeInfo().IsAssignableFrom(typeof(T).GetTypeInfo());
+                bool IsAppendable = typeof(IAppendable<T>).IsAssignableFrom(typeof(T));
 
                 if (IsAppendable)
                 {

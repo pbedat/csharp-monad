@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpMonad.UnitTests", "CSharpMonad.UnitTests\CSharpMonad.UnitTests.csproj", "{496943F4-17B4-41CB-8013-5499543E3DA0}"
 EndProject
@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C753F4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpMonad", "CSharpMonad\CSharpMonad.csproj", "{254ABD61-BEDB-4478-9708-606E85310FE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpMonad_4-0", "CSharpMonad\CSharpMonad_4-0.csproj", "{7AF401A2-F658-405A-AB13-3A4BE005D46F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{254ABD61-BEDB-4478-9708-606E85310FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{254ABD61-BEDB-4478-9708-606E85310FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{254ABD61-BEDB-4478-9708-606E85310FE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AF401A2-F658-405A-AB13-3A4BE005D46F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF401A2-F658-405A-AB13-3A4BE005D46F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF401A2-F658-405A-AB13-3A4BE005D46F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF401A2-F658-405A-AB13-3A4BE005D46F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -79,8 +79,8 @@ namespace Monad.Parsec.Token
         public readonly Func<Parser<A>, Parser<ImmutableList<A>>> CommaSep;
         public readonly Func<Parser<A>, Parser<ImmutableList<A>>> CommaSep1;
 
-        private readonly IReadOnlyDictionary<string, Parser<ReservedToken>> reserved;
-        private readonly IReadOnlyDictionary<string, Parser<ReservedOpToken>> reservedOp;
+        private readonly IDictionary<string, Parser<ReservedToken>> reserved;
+        private readonly IDictionary<string, Parser<ReservedOpToken>> reservedOp;
 
         public readonly Func<string, Parser<ReservedToken>> Reserved;
         public readonly Func<string, Parser<ReservedOpToken>> ReservedOp;

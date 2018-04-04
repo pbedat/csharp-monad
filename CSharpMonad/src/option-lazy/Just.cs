@@ -33,7 +33,7 @@ namespace Monad
     public class JustResult<T> : OptionResult<T>
     {
         static readonly string TypeOfT = typeof(T).ToString();
-        static readonly bool IsAppendable = typeof(IAppendable<T>).GetTypeInfo().IsAssignableFrom(typeof(T).GetTypeInfo());
+        static readonly bool IsAppendable = typeof(IAppendable<T>).IsAssignableFrom(typeof(T));
         private readonly T value;
 
         public JustResult(T value)

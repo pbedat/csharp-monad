@@ -296,7 +296,7 @@ namespace Monad
                 var rhsValue = rhs();
                 if (rhsValue.IsFaulted) return rhsValue;
 
-                bool IsAppendable = typeof(IAppendable<T>).GetTypeInfo().IsAssignableFrom(typeof(T).GetTypeInfo());
+                bool IsAppendable = typeof(IAppendable<T>).IsAssignableFrom(typeof(T));
 
                 if (IsAppendable)
                 {
